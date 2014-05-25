@@ -4,7 +4,7 @@ CodeBook for Course Project Getting and Cleaning Data
 The variables involved in final output of this course project are as below and are a subset of the total variables included in the features.txt file provided in the original zip file. Excluding variables subjectID and activities the other variables are either a mean or standard deviation from the total 561 variables from the features.txt file
  
 ## Variables:
-- subjectID
+- subjectID 
 - activity
 - tBodyAcc_meanx
 - tBodyAcc_meany

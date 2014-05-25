@@ -12,7 +12,7 @@ ytest[ytest == 1] <- "Walking"
 ytest[ytest == 2] <- "Walking_Upstairs"
 ytest[ytest == 3] <- "Walking_Downstairs"
 ytest[ytest == 4] <- "Sitting"
-ytest[ytest == 5] <- "Standing"
+ytest[ytest == 5] <- "Standing" 
 ytest[ytest == 6] <- "Laying"
 setwd("../train") 
 subjecttrain <- read.table("subject_train.txt", sep = " ", stringsAsFactors = FALSE, col.name = "subjectID") 

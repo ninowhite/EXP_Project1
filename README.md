@@ -133,7 +133,7 @@ ytest[ytest == 3] <- "Walking_Downstairs"
 ytest[ytest == 4] <- "Sitting"
 ytest[ytest == 5] <- "Standing"
 ytest[ytest == 6] <- "Laying"
-setwd("../train") 
+setwd("../train")  
 subjecttrain <- read.table("subject_train.txt", sep = " ", stringsAsFactors = FALSE, col.name = "subjectID") 
 xtrain <- read.table("X_train.txt", sep = "") 
 xtrain <- xtrain[, c(1:6, 41:46, 81:86, 121:126, 161:166, 201, 202, 214, 215, 227, 228, 240, 241, 253, 254, 266:271, 345:350, 424:429, 503, 504, 516, 517, 529, 530, 542, 543)]
